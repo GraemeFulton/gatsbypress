@@ -1,6 +1,6 @@
-#GatsbyPress
+# GatsbyPress
 
-##WordPress for Gatsby.
+## WordPress for Gatsby.
 
 A WordPress version of [Ryan Wiemer's](https://github.com/ryanwiemer) [ Gatsby, Contentful and Netlify Starter](https://github.com/ryanwiemer/gatsby-starter-gcn).
 
