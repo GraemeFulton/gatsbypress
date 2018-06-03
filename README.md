@@ -4,7 +4,7 @@
 
 A WordPress version of [Ryan Wiemer's](https://github.com/ryanwiemer) [ Gatsby, Contentful and Netlify Starter](https://github.com/ryanwiemer/gatsby-starter-gcn).
 
-Created following tutorials from [@ivan_doric]("https://twitter.com/ivan_doric").
+Created following tutorials from [@ivan_doric] ("https://twitter.com/ivan_doric").
 
 ### gatsby-starter-default
 Based on the default Gatsby starter.
