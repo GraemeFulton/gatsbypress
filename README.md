@@ -1,26 +1,18 @@
-# gatsby-starter-default
-The default Gatsby starter.
+#GatsbyPress
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+##WordPress for Gatsby.
 
-## Install
+A WordPress version of [Ryan Wiemer's](https://github.com/ryanwiemer) [ Gatsby, Contentful and Netlify Starter](https://github.com/ryanwiemer/gatsby-starter-gcn).
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+Created following tutorials from [@ivan_doric]("https://twitter.com/ivan_doric").
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
+### gatsby-starter-default
+Based on the default Gatsby starter.
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+(TODO)
+
+Follow [this](https://www.youtube.com/watch?v=oK5yJ2OTJHM&index=8&list=PLUBR53Dw-Ef8fe-8xJXtMpd1-uhgd2Qa6) to deploy to GitHub.
+
+Follow [this](https://www.youtube.com/watch?v=8PAV_9JKW48&list=PLUBR53Dw-Ef8fe-8xJXtMpd1-uhgd2Qa6&index=6) to add Advanced Custom Fields support.
