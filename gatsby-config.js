@@ -18,6 +18,7 @@ module.exports = {
   {
     resolve: 'gatsby-source-wordpress',
     options: {
+      //replace this with your own url (shoutout 🐭 what I'm using it for: https://www.producthunt.com/upcoming/emailotter)
       baseUrl: '192.168.1.108:8888/content-otter',
       // The protocol. This can be http or https.
       protocol: 'http',
