@@ -4,8 +4,8 @@ const config = require('./themeConfig/config')
 
 module.exports = {
   siteMetadata: { 
-    title: 'Email Otter',
-    subtitle: 'The blog'
+    title: 'GatsbyPress',
+    subtitle: 'WordPress Gatsby Theme'
   },
   plugins: ['gatsby-plugin-react-helmet',
   `gatsby-transformer-sharp`,

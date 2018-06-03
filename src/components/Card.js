@@ -58,7 +58,7 @@ const Card = props => {
         <Img resolutions={props.image.featured_media.localFile.childImageSharp.resolutions} backgroundColor={'#eeeeee'} />
       }
         <Title>{props.title.replace(/[^a-zA-Z ]/g, " ")}</Title>
-        <Date>{props.date}</Date>
+        <Date>{props.date.substr(0, props.date.indexOf('T'))}</Date>
         <Excerpt
           dangerouslySetInnerHTML={{
             __html: props.excerpt,

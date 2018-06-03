@@ -10,14 +10,16 @@ const BgImg = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%!important;
   z-index: -1;
   min-height: 300px;
+  max-height:51vh;
   height: auto;
   @media (min-width: ${props => props.theme.responsive.small}) {
     height: ${props => props.height || 'auto'};
   }
   & > img {
+    width:100%;
     object-fit: ${props => props.fit || 'cover'} !important;
     object-position: ${props => props.position || '50% 50%'} !important;
   }
@@ -54,7 +56,7 @@ const Hero = props => (
   <Wrapper>
     <BgImg
       height={props.height}
-      sizes={props.image.sizes}
+      resolutions={props.image}
       backgroundColor={'#eeeeee'}
     />
     <Title>{props.title}</Title>

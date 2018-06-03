@@ -99,8 +99,11 @@ const Body = styled.div`
 
 const PageBody = props => {
   return (
+    // <Body
+    //   dangerouslySetInnerHTML={{ __html: props.body.childMarkdownRemark.html }}
+    // />
     <Body
-      dangerouslySetInnerHTML={{ __html: props.body.childMarkdownRemark.html }}
+      dangerouslySetInnerHTML={{ __html: props.body }}
     />
   )
 }

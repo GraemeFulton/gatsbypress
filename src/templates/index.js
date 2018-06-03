@@ -22,7 +22,7 @@ const IndexPage = ({ data, pathContext }) => {
   
   return(
   <Container>
-    <PageTitle small>Hi people</PageTitle>
+    <PageTitle small>Welcome!</PageTitle>
 
       <h4 style={{paddingBottom:'2em'}}>{pageCount} Posts</h4>
       <CardList>

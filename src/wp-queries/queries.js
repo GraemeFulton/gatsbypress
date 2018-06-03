@@ -29,9 +29,14 @@ exports.postsQuery = `
           localFile{
             childImageSharp{
               resolutions(width:370, height:229){
-                src
+              src
+              width
+              height
+              }
+              original{
                 width
                 height
+                src
               }
             }
           }

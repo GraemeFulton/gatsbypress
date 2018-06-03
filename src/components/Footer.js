@@ -61,16 +61,27 @@ const Footer = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          gatsby-wordpress-gcn
+          GatsbyPress
         </a>{' '}
         by{' '}
         <a
-          href="https://github.com/graemefulton"
+          href="https://twitter.com/graeme_fulton"
           target="_blank"
           rel="noopener noreferrer"
         >
           @graeme_fulton
         </a>
+        <br/>
+        <div style={{"marginTop":'1em'}}>
+        Ported from &nbsp; 
+        <a
+          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @ryanwiemer
+        </a>
+        </div>
       </Item>
     </List>
   </Wrapper>
