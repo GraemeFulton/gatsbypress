@@ -30,13 +30,36 @@ const NextLink = styled(Link)`
   order: 2;
 `
 
+const PrevNavLink = props => {
+  if (!props.test) {
+    return <Link to={props.url}>{props.text}</Link>;
+  } 
+  else {
+    if(props.url!=0){
+    return <span>{props.text}</span>;
+    }
+    else{
+      return <span></span>;
+    }
+  }
+
+};
+
+const NextNavLink = props =>{
+  if (!props.test) {
+    return <Link to={props.url}>{props.text}</Link>;
+  }
+  else {
+    return <span>{props.text}</span>;
+  }
+}
+
 const PostLinks = props => {
   return (
     <Wrapper>
-      {props.previous && (
-        <PreviousLink to={`/${props.previous.slug}/`}>Prev Post</PreviousLink>
-      )}
-      {props.next && <NextLink to={`/${props.next.slug}/`}>Next Post</NextLink>}
+        <PrevNavLink test={props.first} url={props.previous} text="Previous Page" />
+        <div style={{padding:'1em'}}>{props.pagination}</div>
+        <NextNavLink test={props.last} url={props.next} text="Next Page" />
     </Wrapper>
   )
 }

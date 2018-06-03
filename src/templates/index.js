@@ -5,6 +5,7 @@ import PageTitle from '../components/PageTitle'
 
 import CardList from '../components/CardList'
 import Card from '../components/Card'
+import PostLinks from '../components/PostLinks'
 
 const NavLink = props => {
   if (!props.test) {
@@ -23,7 +24,7 @@ const IndexPage = ({ data, pathContext }) => {
   <Container>
     <PageTitle small>Hi people</PageTitle>
 
-      <h4>{pageCount} Posts</h4>
+      <h4 style={{paddingBottom:'2em'}}>{pageCount} Posts</h4>
       <CardList>
       {group.map(({ node }) => (
           <Card
@@ -37,12 +38,8 @@ const IndexPage = ({ data, pathContext }) => {
       ))}
       </CardList>
 
-      <div className="previousLink">
-        <NavLink test={first} url={'/posts/'+previousUrl} text="Go to Previous Page" />
-      </div>
-      <div className="nextLink">
-        <NavLink test={last} url={'/posts/'+nextUrl} text="Go to Next Page" />
-      </div>
+        {/* {tags && <TagList tags={tags} />} */}
+        <PostLinks first={first} last={last} previous={0} next={'/posts/'+nextUrl} />
   </Container>
 )}
 
