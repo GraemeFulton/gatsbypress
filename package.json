@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsbypress",
+  "description": "GatsbyPress",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Graeme",
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "^1.9.269",
@@ -13,13 +13,14 @@
     "gatsby-plugin-sharp": "^1.6.46",
     "gatsby-source-wordpress": "^2.0.88",
     "gatsby-transformer-sharp": "^1.6.26",
-    "marvel-ui": "github:graemefulton/prototypr-ui-components",
     "prismjs": "^1.14.0",
     "react-helmet": "^5.2.0",
     "styled-components": "^3.3.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "wordpress",
+    "gatsbypress"
   ],
   "license": "MIT",
   "scripts": {
@@ -33,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/graemefulton/gatsbypress"
   }
 }
