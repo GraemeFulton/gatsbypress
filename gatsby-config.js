@@ -1,9 +1,5 @@
-// module.exports = {
-//   siteMetadata: {
-//     title: 'Gatsby Default Starter',
-//   },
-//   plugins: ['gatsby-plugin-react-helmet'],
-// }
+//this config is the theme stuff
+const config = require('./themeConfig/config')
 
 
 module.exports = {
@@ -30,7 +26,8 @@ module.exports = {
       useACF: false,
       verboseOutput: true,
       concurrentRequests:10,
-      excludedRoutes: ["/*/*/comments", "/yoast/**"]
+      excludedRoutes: ["/*/*/comments", "/yoast/**"],
+      color: config.themeColor,
     },
   }
   ],

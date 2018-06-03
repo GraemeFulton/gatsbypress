@@ -28,7 +28,7 @@ exports.postsQuery = `
         featured_media{
           localFile{
             childImageSharp{
-              resolutions(width:500, height:300){
+              resolutions(width:370, height:229){
                 src
                 width
                 height

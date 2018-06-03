@@ -14,7 +14,8 @@
     "gatsby-source-wordpress": "^2.0.88",
     "gatsby-transformer-sharp": "^1.6.26",
     "marvel-ui": "github:graemefulton/prototypr-ui-components",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.3.0"
   },
   "keywords": [
     "gatsby"
