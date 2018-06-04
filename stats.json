@@ -1,12 +1,20 @@
 {
   "assetsByChunkName": {
     "path---sample-page": [
-      "path---sample-page-606602b3773705fdaafe.js",
-      "path---sample-page-606602b3773705fdaafe.js.map"
+      "path---sample-page-45c4d112d9a38348a789.js",
+      "path---sample-page-45c4d112d9a38348a789.js.map"
     ],
     "path---": [
-      "path----7fb44a321610869179de.js",
-      "path----7fb44a321610869179de.js.map"
+      "path----e943275260b405f7a172.js",
+      "path----e943275260b405f7a172.js.map"
+    ],
+    "path---post-email-otter-video-preview": [
+      "path---post-email-otter-video-preview-3d037da47383330ee732.js",
+      "path---post-email-otter-video-preview-3d037da47383330ee732.js.map"
+    ],
+    "path---post-bootstrapping-with-product-hunt-ship": [
+      "path---post-bootstrapping-with-product-hunt-ship-6cc0d147d761512423a0.js",
+      "path---post-bootstrapping-with-product-hunt-ship-6cc0d147d761512423a0.js.map"
     ],
     "component---src-templates-page-js": [
       "component---src-templates-page-js-f05cb6246ba1f525eab6.js",
@@ -16,25 +24,17 @@
       "component---src-templates-index-js-acdf235f026b49e9f9ed.js",
       "component---src-templates-index-js-acdf235f026b49e9f9ed.js.map"
     ],
-    "path---post-email-otter-update-2": [
-      "path---post-email-otter-update-2-92002cbe2be7f64d22ce.js",
-      "path---post-email-otter-update-2-92002cbe2be7f64d22ce.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f39cc422386f703f6195.js",
-      "component---src-layouts-index-js-f39cc422386f703f6195.js.map"
-    ],
-    "path---post-using-product-hunts-ship": [
-      "path---post-using-product-hunts-ship-6fb12a8f360d7dd802d2.js",
-      "path---post-using-product-hunts-ship-6fb12a8f360d7dd802d2.js.map"
+      "component---src-layouts-index-js-62e38119dcca1864d45f.js",
+      "component---src-layouts-index-js-62e38119dcca1864d45f.js.map"
     ],
     "path---posts": [
-      "path---posts-2098e1475f7518b2f899.js",
-      "path---posts-2098e1475f7518b2f899.js.map"
+      "path---posts-d43291a2c0b9a9444c4d.js",
+      "path---posts-d43291a2c0b9a9444c4d.js.map"
     ],
     "path---index": [
-      "path---index-2988b9002752aa9a5489.js",
-      "path---index-2988b9002752aa9a5489.js.map"
+      "path---index-9c723a1e9699ac8044fc.js",
+      "path---index-9c723a1e9699ac8044fc.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -54,18 +54,18 @@
       "component---src-templates-post-js-56911941a0d96d7870db.js",
       "component---src-templates-post-js-56911941a0d96d7870db.js.map"
     ],
-    "path---post-652": [
-      "path---post-652-bc825215163d2c3f3853.js",
-      "path---post-652-bc825215163d2c3f3853.js.map"
-    ],
     "component---src-templates-posts-js": [
       "component---src-templates-posts-js-459b98bbc5ef07956c08.js",
       "component---src-templates-posts-js-459b98bbc5ef07956c08.js.map"
     ],
+    "path---post-hello-otter": [
+      "path---post-hello-otter-9f4f4ab624c41da75fb7.js",
+      "path---post-hello-otter-9f4f4ab624c41da75fb7.js.map"
+    ],
     "app": [
-      "app-36da16f81f0e6b2e32da.js",
+      "app-12da0dd893a75726f26c.js",
       "build-js-styles.css",
-      "app-36da16f81f0e6b2e32da.js.map",
+      "app-12da0dd893a75726f26c.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
